@@ -21,12 +21,12 @@ export interface Logo {
 export interface Social {
   href?: string;
   label:
-    | "Instagram"
-    | "Facebook"
-    | "Linkedin"
-    | "WhatsApp"
     | "Discord"
-    | "Tiktok";
+    | "Facebook"
+    | "Instagram"
+    | "Linkedin"
+    | "Tiktok"
+    | "WhatsApp"
 }
 
 export interface Link {

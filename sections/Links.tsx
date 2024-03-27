@@ -1,13 +1,17 @@
 import { JSX } from "preact";
-import { Link, Social, Symbol } from "./types.ts";
+import { Link, Symbol } from "./types.ts";
 import Icon, { AvailableIcons } from "../components/ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 
-export default function Main(
-  props: { social?: Social[]; links?: Link[] },
-): JSX.Element | null {
-  const { social, links } = props;
+export interface Props {
+  links?: Link[]
+}
 
+export default function Main(
+  {
+    links = Array(3).fill(0).map(() => ({ icon: { src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034", alt: "Image" }, text: "Change me", href: "/" }))
+  }: Props,
+): JSX.Element | null {
   function isImage(icon: AvailableIcons | Symbol): icon is Symbol {
     return (icon as Symbol).src !== undefined;
   }
@@ -18,25 +22,6 @@ export default function Main(
 
   return (
     <div class="flex flex-col items-center max-w-[688px] mx-auto w-full lg:px-0 px-6">
-      {social && social?.length > 0 && (
-        <ul class="flex flex-row gap-4 items-center justify-center my-8">
-          {social?.map((link) => (
-            <li>
-              <a
-                target="_blank"
-                href={link.href}
-                title={link.label}
-              >
-                <Icon
-                  size={20}
-                  id={link.label}
-                  strokeWidth={2}
-                />
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
       {links && links?.length > 0 && (
         <ul class="flex flex-col items-center justify-center w-full">
           {links?.map((list: Link | Symbol, index: number) => {
@@ -46,7 +31,7 @@ export default function Main(
                   <a
                     target="_blank"
                     href={list.href}
-                    class={`flex min-h-[52px] items-center justify-start px-2 rounded-full border border-base-content w-full bg-base-100`}
+                    class="flex min-h-[52px] items-center justify-start px-2 rounded-full border border-primary w-full"
                   >
                     {list.icon && !isImage(list.icon) && (
                       <Icon
@@ -65,7 +50,7 @@ export default function Main(
                         height={list.icon.height || 36}
                       />
                     )}
-                    <span class="text-center text-sm w-full text-base-content">
+                    <span class="text-center text-sm w-full">
                       {list.text}
                     </span>
 
