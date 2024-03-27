@@ -7,108 +7,22 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx",
-        "header": {
-          "title": "Click here to tweak this text however you want.",
-          "description": "This text is entirely editable, tailor it freely.",
-          "logo": {
-            "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/5be8c963-6e1b-477b-a2dc-6d769ca75baf"
-          }
-        }
+        "__resolveType": "site/sections/Header.tsx"
       },
       {
-        "__resolveType": "site/sections/Links.tsx",
-        "links": [
-          {
-            "icon": {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/e0fa53f6-cccd-4d00-851d-8cc4ba7bc91f",
-              "alt": "icone"
-            },
-            "text": "Change me",
-            "href": "/"
-          },
-          {
-            "icon": {
-              "alt": "icone",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/e0fa53f6-cccd-4d00-851d-8cc4ba7bc91f"
-            },
-            "text": "Change me",
-            "href": "/"
-          }
-        ],
-        "social": [
-          {
-            "label": "Instagram",
-            "href": "/"
-          },
-          {
-            "label": "Instagram",
-            "href": "/"
-          },
-          {
-            "label": "Instagram",
-            "href": "/"
-          },
-          {
-            "label": "Instagram",
-            "href": "/"
-          },
-          {
-            "label": "Instagram",
-            "href": "/"
-          }
-        ]
+        "__resolveType": "site/sections/Social.tsx"
       },
       {
-        "__resolveType": "site/sections/Image.tsx",
-        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/2bb6e3b9-90e8-49b0-86ce-465d6856343e",
-        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/89934286-9a29-4ebc-bc90-39117d2e7edb",
-        "alt": "image"
+        "__resolveType": "site/sections/Links.tsx"
       },
       {
-        "__resolveType": "site/sections/Links.tsx",
-        "links": [
-          {
-            "icon": {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034",
-              "alt": "icone"
-            },
-            "text": "Change me",
-            "href": "/"
-          },
-          {
-            "icon": {
-              "alt": "icone",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034"
-            },
-            "text": "Change me",
-            "href": "/"
-          },
-          {
-            "icon": {
-              "alt": "icone",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034"
-            },
-            "text": "Change me",
-            "href": "/"
-          },
-          {
-            "icon": {
-              "alt": "icone",
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034"
-            },
-            "text": "Change me",
-            "href": "/"
-          }
-        ]
+        "__resolveType": "site/sections/Image.tsx"
       },
       {
-        "__resolveType": "site/sections/Footer.tsx",
-        "footer": {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-          "url": "https://deco.cx/",
-          "text": "made with"
-        }
+        "__resolveType": "site/sections/Links.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
