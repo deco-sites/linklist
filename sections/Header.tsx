@@ -14,7 +14,7 @@ export interface Props {
 export default function Header(
   {
     logo = {
-      img: "http://localhost:8000/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fozksgdmyrqcxcwhnbepg.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fassets%2F4959%2F5be8c963-6e1b-477b-a2dc-6d769ca75baf&fit=cover&width=208&height=208",
+      img: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/df52c7fe-cb9d-48a8-9652-7f6bf49737ee",
       link: "/",
     },
     title = "Click here to tweak this text however you want.",

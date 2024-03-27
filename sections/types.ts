@@ -1,15 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import { AvailableIcons } from "../components/ui/Icon.tsx";
 
-export interface Header {
-  /** @description 104px x 104px image recommended */
-  logo?: Logo;
-  /** @format textarea */
-  title?: string;
-  /** @format textarea */
-  description?: string;
-}
-
 export interface Logo {
   img?: ImageWidget;
   alt?: string;
@@ -40,13 +31,4 @@ export interface Symbol {
   src?: ImageWidget;
   width?: number;
   height?: number;
-}
-
-export interface Footer {
-  url?: string;
-  image?: ImageWidget;
-  alt?: string;
-  width?: number;
-  height?: number;
-  text?: string;
 }
