@@ -10,6 +10,11 @@
         "__resolveType": "Vanilla"
       },
       {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Link List",
+        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/f0d409ce-eedd-4a83-9ce4-ab9320b71861"
+      },
+      {
         "__resolveType": "site/sections/Header.tsx"
       },
       {
@@ -26,11 +31,6 @@
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
-      },
-      {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Link List",
-        "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/f0d409ce-eedd-4a83-9ce4-ab9320b71861"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
