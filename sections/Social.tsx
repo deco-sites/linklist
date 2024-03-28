@@ -14,6 +14,7 @@ export default function Main(
       { label: "Instagram", href: "/", },
       { label: "Linkedin", href: "/", },
       { label: "Tiktok", href: "/", },
+      { label: "Twitter", href: "/", },
       { label: "WhatsApp", href: "/", },
     ],
   }: Props,

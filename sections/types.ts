@@ -17,6 +17,7 @@ export interface Social {
     | "Instagram"
     | "Linkedin"
     | "Tiktok"
+    | "Twitter"
     | "WhatsApp"
 }
 
