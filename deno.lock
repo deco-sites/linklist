@@ -3113,5 +3113,10 @@
     "https://esm.sh/v135/websocket@1.0.34/denonext/websocket.mjs": "dfe5d62007e9f7430d561e2376fe47caa9d04cb016d83d3386fcc2206a90296b",
     "https://raw.githubusercontent.com/denoland/wasmbuild/0.15.5/loader/cache.ts": "c206222e6e7625bee37386af10b575677607b02411b5321b966e5c96ee029b29",
     "https://raw.githubusercontent.com/denoland/wasmbuild/0.15.5/loader/fetch.js": "4718accb95459b9167cfc9d07efce75c629fda543ea99cfcf509d24d7f51dbc3"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:daisyui@4.4.19"
+    ]
   }
 }
