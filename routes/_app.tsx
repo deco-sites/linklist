@@ -27,7 +27,6 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Install HTMX */}
         <script
-          async
           src="https://cdn.jsdelivr.net/npm/htmx.org@1.9.11"
           crossorigin="anonymous"
         />
