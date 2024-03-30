@@ -4,12 +4,20 @@ import Icon, { AvailableIcons } from "../components/ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
-  links?: Link[]
+  links?: Link[];
 }
 
 export default function Main(
   {
-    links = Array(3).fill(0).map(() => ({ icon: { src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034", alt: "Image" }, text: "Change me", href: "/" }))
+    links = Array(3).fill(0).map(() => ({
+      icon: {
+        src:
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/fea5871e-2a02-4dd8-a12c-f2247dd59034",
+        alt: "Image",
+      },
+      text: "Change me",
+      href: "/",
+    })),
   }: Props,
 ): JSX.Element | null {
   function isImage(icon: AvailableIcons | Symbol): icon is Symbol {

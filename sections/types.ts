@@ -18,7 +18,7 @@ export interface Social {
     | "Linkedin"
     | "Tiktok"
     | "Twitter"
-    | "WhatsApp"
+    | "WhatsApp";
 }
 
 export interface Link {

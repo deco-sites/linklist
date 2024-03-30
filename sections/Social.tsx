@@ -9,13 +9,13 @@ export interface Props {
 export default function Main(
   {
     social = [
-      { label: "Discord", href: "/", },
-      { label: "Facebook", href: "/", },
-      { label: "Instagram", href: "/", },
-      { label: "Linkedin", href: "/", },
-      { label: "Tiktok", href: "/", },
-      { label: "Twitter", href: "/", },
-      { label: "WhatsApp", href: "/", },
+      { label: "Discord", href: "/" },
+      { label: "Facebook", href: "/" },
+      { label: "Instagram", href: "/" },
+      { label: "Linkedin", href: "/" },
+      { label: "Tiktok", href: "/" },
+      { label: "Twitter", href: "/" },
+      { label: "WhatsApp", href: "/" },
     ],
   }: Props,
 ): JSX.Element | null {
