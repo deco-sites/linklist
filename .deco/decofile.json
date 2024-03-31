@@ -38,14 +38,15 @@
   "site": {
     "seo": {
       "type": "website",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
-      "title": "Storefront",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/bb193bd5-c577-4102-bd92-6c73f35c5832",
+      "title": "Linklist",
       "jsonLDs": [],
       "canonical": "https://fashion.deco.site",
       "noIndexing": false,
       "description": "Improve your page performance with deco.cx",
       "titleTemplate": "%s | deco.cx",
-      "descriptionTemplate": "%s | Deco.cx"
+      "descriptionTemplate": "%s | Deco.cx",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/9e0e74c8-7aab-4001-a4b7-0e8086cf7ad8"
     },
     "global": [],
     "routes": [
