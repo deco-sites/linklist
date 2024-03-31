@@ -7,9 +7,6 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "Vanilla"
-      },
-      {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
         "title": "Link List",
         "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/f0d409ce-eedd-4a83-9ce4-ab9320b71861"
@@ -220,7 +217,7 @@
     "buttonStyle": {
       "--border-btn": "1px",
       "--rounded-btn": "0.2rem",
-      "--btn-focus-scale": 0.95,
+      "--btn-focus-scale": "0.95",
       "--animation-btn": "0.25s"
     },
     "otherStyles": {
