@@ -73,6 +73,12 @@
       ]
     }
   },
+  "Preview /sections/Links.tsx": {
+    "__resolveType": "site/sections/Links.tsx"
+  },
+  "Preview /sections/types.ts": {
+    "__resolveType": "site/sections/types.ts"
+  },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
     "colorScheme": "any",
@@ -184,14 +190,61 @@
       ]
     }
   },
+  "Vanilla": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": "1.05",
+      "--animation-btn": "0.25s"
+    },
+    "mainColors": {
+      "base-100": "#ffffff",
+      "primary": "#5e5e5e",
+      "secondary": "#1c1c1c",
+      "tertiary": "#c4c4c4"
+    },
+    "colorScheme": "any",
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    }
+  },
+  "app-site%2Fapps%2Fsite.ts": {
+    "__resolveType": "site/apps/site.ts",
+    "routes": [],
+    "seo": {
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s",
+      "type": "website"
+    },
+    "global": [],
+    "caching": {
+      "directives": []
+    },
+    "firstByteThresholdMS": false
+  },
+  "blog": {
+    "__resolveType": "decohub/apps/blog.ts"
+  },
   "decohub": {
     "__resolveType": "site/apps/decohub.ts",
     "apps": []
   },
-  "pages-Start-15553": {
+  "htmx": {
+    "__resolveType": "decohub/apps/htmx.ts",
+    "version": "1.9.11"
+  },
+  "pages-Home-927328": {
     "name": "Home",
     "path": "/",
     "sections": [
+      {
+        "__resolveType": "Vanilla"
+      },
       {
         "__resolveType": "site/sections/Header.tsx"
       },
@@ -199,13 +252,13 @@
         "__resolveType": "site/sections/Social.tsx"
       },
       {
-        "__resolveType": "site/sections/Links.tsx"
+        "__resolveType": "Preview /sections/Links.tsx"
       },
       {
         "__resolveType": "site/sections/Image.tsx"
       },
       {
-        "__resolveType": "site/sections/Links.tsx"
+        "__resolveType": "Preview /sections/Links.tsx"
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
@@ -236,109 +289,6 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Vanilla"
-    }
-  },
-  "blog": {
-    "__resolveType": "decohub/apps/blog.ts"
-  },
-  "app-site%2Fapps%2Fsite.ts": {
-    "__resolveType": "site/apps/site.ts",
-    "routes": [],
-    "seo": {
-      "titleTemplate": "%s",
-      "descriptionTemplate": "%s",
-      "type": "website"
-    },
-    "global": [],
-    "caching": {
-      "directives": []
-    },
-    "firstByteThresholdMS": false
-  },
-  "htmx": {
-    "__resolveType": "decohub/apps/htmx.ts",
-    "version": "1.9.11"
-  },
-  "pages-Home-411727": {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "site/sections/Header.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Social.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Links.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Image.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Links.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "Preview /sections/Links.tsx": {
-    "__resolveType": "site/sections/Links.tsx"
-  },
-  "Preview /sections/types.ts": {
-    "__resolveType": "site/sections/types.ts"
-  },
-  "pages-Home-927328": {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Vanilla"
-      },
-      {
-        "__resolveType": "site/sections/Header.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Social.tsx"
-      },
-      {
-        "__resolveType": "Preview /sections/Links.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Image.tsx"
-      },
-      {
-        "__resolveType": "Preview /sections/Links.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Footer.tsx"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "Vanilla": {
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--btn-focus-scale": "1.05",
-      "--animation-btn": "0.25s"
-    },
-    "mainColors": {
-      "base-100": "#ffffff",
-      "primary": "#5e5e5e",
-      "secondary": "#1c1c1c",
-      "tertiary": "#c4c4c4"
-    },
-    "colorScheme": "any",
-    "otherStyles": {
-      "--rounded-box": "1rem",
-      "--rounded-badge": "1.9rem",
-      "--animation-input": "0.2s",
-      "--tab-border": "1px",
-      "--tab-radius": "0.5rem"
     }
   }
 }
