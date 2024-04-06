@@ -211,6 +211,15 @@
       "--animation-input": "0.2s",
       "--tab-border": "1px",
       "--tab-radius": "0.5rem"
+    },
+    "font": {
+      "__resolveType": "website/loaders/fonts/googleFonts.ts",
+      "fonts": [
+        {
+          "variations": [],
+          "family": "Albert Sans"
+        }
+      ]
     }
   },
   "app-site%2Fapps%2Fsite.ts": {
