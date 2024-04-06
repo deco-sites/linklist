@@ -195,7 +195,7 @@
     "buttonStyle": {
       "--border-btn": "1px",
       "--rounded-btn": "0.2rem",
-      "--btn-focus-scale": "1.05",
+      "--btn-focus-scale": "0.95",
       "--animation-btn": "0.25s"
     },
     "mainColors": {
