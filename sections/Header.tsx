@@ -5,9 +5,15 @@ import { JSX } from "preact";
 export interface Props {
   /** @description 104px x 104px image recommended */
   logo?: Logo;
-  /** @format textarea */
+  /**
+   * @format rich-text
+   * @default Click here to tweak this text however you want.
+   */
   title?: string;
-  /** @format textarea */
+  /**
+   * @format rich-text
+   * @default This text is entirely editable, tailor it freely.
+  */
   description?: string;
 }
 
@@ -44,11 +50,13 @@ export default function Header(
     <header class="flex flex-col gap-4 items-center justify-center max-w-[746px] mx-auto pt-10 w-full lg:px-0 px-6">
       {logo?.img && <div class="p-4 rounded-full">{maybeLink}</div>}
       {title && (
-        <h1 class="lg:text-6xl text-4xl text-center">
-          {title}
-        </h1>
+        <h1 class="lg:text-6xl text-4xl text-center" dangerouslySetInnerHTML={{
+                __html: title,
+              }}/>
       )}
-      {description && <p>{description}</p>}
+      {description && <div dangerouslySetInnerHTML={{
+        __html: description,
+      }}/>}
     </header>
   );
 }
