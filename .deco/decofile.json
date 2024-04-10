@@ -73,6 +73,11 @@
       ]
     }
   },
+  "Preview /sections/Header.tsx": {
+    "__resolveType": "site/sections/Header.tsx",
+    "title": "<p>Click here to tweak this text however you want.</p>",
+    "description": "<p>This text is entirely editable, tailor it freely.</p>"
+  },
   "Preview /sections/Links.tsx": {
     "__resolveType": "site/sections/Links.tsx"
   },
@@ -301,10 +306,5 @@
     "theme": {
       "__resolveType": "Vanilla"
     }
-  },
-  "Preview /sections/Header.tsx": {
-    "__resolveType": "site/sections/Header.tsx",
-    "title": "<p>Click here to tweak this text however you want.</p>",
-    "description": "<p>This text is entirely editable, tailor it freely.</p>"
   }
 }
