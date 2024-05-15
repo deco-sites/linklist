@@ -1,0 +1,19 @@
+{
+  "name": "Links",
+  "path": "/",
+  "sections": [
+    { "__resolveType": "Vanilla" },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Link List",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/5e6e3957-a576-435e-b521-cd37d45639a9"
+    },
+    { "__resolveType": "site/sections/Header.tsx" },
+    { "__resolveType": "site/sections/Social.tsx" },
+    { "__resolveType": "site/sections/Links.tsx" },
+    { "__resolveType": "site/sections/Image.tsx" },
+    { "__resolveType": "site/sections/Links.tsx" },
+    { "__resolveType": "site/sections/Footer.tsx" }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
