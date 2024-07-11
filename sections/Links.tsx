@@ -1,5 +1,5 @@
 import { JSX } from "preact";
-import { Link, Symbol } from "./types.ts";
+import { Link, Symbol } from "../components/types.ts";
 import Icon, { AvailableIcons } from "../components/ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 

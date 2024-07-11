@@ -1,5 +1,5 @@
 import { JSX } from "preact";
-import { Social } from "./types.ts";
+import { Social } from "../components/types.ts";
 import Icon from "../components/ui/Icon.tsx";
 
 export interface Props {

@@ -1,4 +1,4 @@
-import { Logo } from "./types.ts";
+import { Logo } from "../components/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import { JSX } from "preact";
 
@@ -13,7 +13,7 @@ export interface Props {
   /**
    * @format rich-text
    * @default This text is entirely editable, tailor it freely.
-  */
+   */
   description?: string;
 }
 
@@ -50,13 +50,20 @@ export default function Header(
     <header class="flex flex-col gap-4 items-center justify-center max-w-[746px] mx-auto pt-10 w-full lg:px-0 px-6">
       {logo?.img && <div class="p-4 rounded-full">{maybeLink}</div>}
       {title && (
-        <h1 class="lg:text-6xl text-4xl text-center" dangerouslySetInnerHTML={{
-                __html: title,
-              }}/>
+        <h1
+          class="lg:text-6xl text-4xl text-center"
+          dangerouslySetInnerHTML={{
+            __html: title,
+          }}
+        />
       )}
-      {description && <div dangerouslySetInnerHTML={{
-        __html: description,
-      }}/>}
+      {description && (
+        <div
+          dangerouslySetInnerHTML={{
+            __html: description,
+          }}
+        />
+      )}
     </header>
   );
 }
