@@ -73,6 +73,7 @@ import_map.local.json
 _fresh/
 
 deno.lock
+*.tmp
 
 # Deco files
 _docker_deps.ts
